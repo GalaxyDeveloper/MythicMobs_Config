@@ -1,0 +1,1 @@
+# MythicMobs_Config
