@@ -3,4 +3,5 @@ SkeletalKnightDrops:
   Drops:
   - SkeletonHelmet 1 0.1
   - SkeletonSword 1 0.1
+  - SkeletonShield 1 0.1
   - exp 10

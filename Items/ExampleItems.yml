@@ -1,4 +1,4 @@
-#SkeletonEquipment
+#SkeletalEquipment
 SkeletonSword:
   Id: 267
   Data: 0
@@ -15,11 +15,12 @@ SkeletonHelmet:
   - PROTECTION_ENVIRONMENTAL:1
   Options:
     Color: 192,192,192
-BanditTunic:
-  Id: 299
-  Display: '&aBandit Tunic'
-  Lore:
-  - '&6A leather tunic taken from'
-  - '&6the corpse of a bandit.'
+SkeletonShield:
+  Id: 442
+  Data: 0
+  Display: 'Skeleton''s Shield'
   Options:
-    Color: 255,40,40
+    Color: WHITE
+  BannerLayers:
+  - BLACK SKULL
+  - BLACK BORDER
