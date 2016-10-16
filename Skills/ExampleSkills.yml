@@ -1,18 +1,16 @@
 # 
 # These example files show you some VERY basic meta skills.
 # You can copy and expand them however you'd like.
-SmashAttack:
+SmashAttack1:
   Cooldown: 8
   Conditions:
-  - targetwithin 25
+  - targetnotwithin 7
   Skills:
-  - message{cooldown=30;m="<mob.name><&co> Hahahah! I will crush you, fool!"} @PlayersInRadius{r=40}
-  - teleport @target
-  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
-  - delay 10
-  - damage{amount=5;ignorearmor=true} @PlayersInRadius{r=5}
-  - throw{velocity=10;velocityY=5} @PlayersInRadius{r=5}
-  - effect:explosion @Self
+  - leap{velocity=200} @target
+  - delay 20
+  - jump{velocity=-100}
+  - effect:explosion @self
+  - damage{amount=20} @EntitiesInRadius{r=5}
 SummonSkeletons:
   Cooldown: 15
   Skills:

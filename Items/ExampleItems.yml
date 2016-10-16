@@ -24,3 +24,31 @@ SkeletonShield:
   BannerLayers:
   - BLACK SKULL
   - BLACK BORDER
+#HumanEquipment
+HumanSword:
+  Id: 267
+  Data: 0
+  Display: 'Iron Blade'
+  Enchantments:
+  - DAMAGE_ALL:1
+  - DURABILITY:2
+IronArmor1:
+  Id: 306
+  Data: 0
+  Amount: 1
+  Display: 'Iron Helmet'
+IronArmor2:
+  Id: 307
+  Data: 0
+  Amount: 1
+  Display: 'Iron Chestplate'
+IronArmor3:
+  Id: 308
+  Data: 0
+  Amount: 1
+  Display: 'Iron Leggings'
+IronArmor4:
+  Id: 309
+  Data: 0
+  Amount: 1
+  Display: 'Iron Boots'
