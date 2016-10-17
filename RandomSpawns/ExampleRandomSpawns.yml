@@ -1,20 +1,27 @@
-# 
-# These example files show you how to inject Mythic Mobs
-# you've created into your world. The name of each block
-# can be whatever you'd like but must be unique.
-RandomSkeletonKing:
-  MobType: SkeletonKing
-  Worlds: world
-  Chance: 0.001
-  Priority: 1
-  Action: replace
-  Conditions:
-  - outside true
+#RandomSkeletal
 RandomSkeletalKnight:
   MobType: SkeletalKnight
   Worlds: world
   Chance: 0.25
   Priority: 1
-  Action: add
+  Action: replace
   Conditions:
   - lightlevelbelow 7
+RandomSkeletalMiner:
+  MobType: SkeletalMiner
+  Worlds: world
+  Chance: 0.25
+  Priority: 1
+  Action: replace
+  Conditions:
+  - lightlevelbelow 7
+
+#RandomHuman
+RandomHumanWarrior:
+  MobType: HumanWarrior
+  Worlds: world
+  Chance: 0.25
+  Priority: 1
+  Action: add
+  Conditions:
+  - biome plains

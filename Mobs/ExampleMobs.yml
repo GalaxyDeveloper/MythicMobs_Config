@@ -28,7 +28,35 @@ SkeletalKnight:
   KillMessages:
   - '<target.name> was destroyed by a pile of living bones'
   Skills:
-  
+SkeletalMiner:
+  Type: SKELETON
+  Health: 20
+  Damage: 4
+  DamageModifiers:
+  - FIRE 2
+  - LAVA 2
+  - FIRE_TICK 2
+  Drops:
+  - SkeletalMinerDrops
+  Equipment:
+  - SkeletonPickaxe:0
+  - SkeletonHelmet:4
+  Faction: Skeleton_Army
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 SpecificFaction Humans
+  KillMessages:
+  - '<target.name> was destroyed by a pile of living bones'
+  Skills:
+
 #Humans
 HumanWarrior:
   Type: HUSK
