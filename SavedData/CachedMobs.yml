@@ -1,10 +1,10 @@
 CachedMobs:
-- SkeletalMiner:4222fed1-5f80-4ab9-8da4-2ee0662026b4:world:16:6:1
-- SkeletalKnight:e412dc18-856b-4692-a261-3b45e60eef2d:world:14:5:1
-- HumanWarrior:5a6b47fa-a7f5-4d32-b181-8032fc926227:world:17:6:1
-- HumanWarrior:2c076721-6e8f-4437-9630-9f6aa64d12e9:world:19:5:1
-- SkeletalKnight:60207524-9fc9-4ea5-b2d5-99d55e17037b:world:15:7:1
-- SkeletalKnight:faed513d-90ba-4a37-a244-70f54dac3467:world:20:3:1
-- HumanWarrior:f36261cd-7736-4df8-8100-25bcbe4dbe15:world:19:3:1
-- HumanWarrior:a09f7e9c-ca9d-4d58-a243-ed6f7af40373:world:17:5:1
-- SkeletalMiner:db1bb839-2024-486f-97ab-fb50427c7976:world:18:5:1
+- Skeletal_Knight:c167e922-901e-4934-8f66-9929136ce1e0:world:-1:339:1
+- Skeletal_Knight:2d89e910-20c7-4ec8-8b4c-5bc5339a5e3e:world:-2:336:1
+- Skeletal_Knight:56b6a0ba-cf0b-4be7-8cf8-69c27a5378a5:world:-2:340:1
+- Skeletal_Knight:86ea6a83-821f-41b0-8d09-0f9719e18ba9:world:-1:338:1
+- Skeletal_Knight:263ea182-fd5b-4a96-8a19-883f6c6fc5c3:world:-1:338:1
+- Skeletal_Knight:e6f52f35-d49b-48c0-8ef6-4430a94dc54a:world:-7:340:1
+- Skeletal_Knight:84e96e4b-702b-497d-ad58-b0c75749a4e7:world:-6:341:1
+- Skeletal_Knight:4cb73674-8bad-466a-9c5a-96a135091dc9:world:-6:338:1
+- Skeletal_Knight:ef784932-7055-40fe-8f65-ce0b5ef53d2f:world:-5:340:1

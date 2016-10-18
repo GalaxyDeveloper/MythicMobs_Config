@@ -1,0 +1,88 @@
+#SkeletalEquipment
+SkeletonSword:
+  Id: 268
+  Data: 0
+  Display: 'Broken Wooden Broadsword'
+  Enchantments:
+  - DAMAGE_ALL:1
+  - DURABILITY:1
+SkeletonPickaxe:
+  Id: 270
+  Data: 0
+  Display: 'Broken Pickaxe'
+  Enchantments:
+  - DURABILITY:1
+SkeletonHelmet:
+  Id: 298
+  Data: 0
+  Amount: 1
+  Display: 'Skeleton''s Helmet'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+  Options:
+    Color: 192,192,192
+SkeletonShield:
+  Id: 442
+  Data: 0
+  Display: 'Skeleton''s Shield'
+  Options:
+    Color: WHITE
+  BannerLayers:
+  - BLACK SKULL
+  - BLACK BORDER
+
+#HumanEquipment
+HumanSword:
+  Id: 267
+  Data: 0
+  Display: 'Sharpened Broadsword'
+  Enchantments:
+  - DAMAGE_ALL:2
+  - DURABILITY:2
+IronArmor1:
+  Id: 306
+  Data: 0
+  Amount: 1
+  Display: 'Iron Helmet'
+IronArmor2:
+  Id: 307
+  Data: 0
+  Amount: 1
+  Display: 'Iron Chestplate'
+IronArmor3:
+  Id: 308
+  Data: 0
+  Amount: 1
+  Display: 'Iron Leggings'
+IronArmor4:
+  Id: 309
+  Data: 0
+  Amount: 1
+  Display: 'Iron Boots'
+HumanAxe:
+  Id: 258
+  Data: 0
+  Display: 'Rusty Axe'
+  Enchantments:
+  - DAMAGE_ALL:1
+  - DURABILITY:2
+ChainArmor1:
+  Id: 302
+  Data: 0
+  Amount: 1
+  Display: 'Chain Helmet'
+ChainArmor2:
+  Id: 303
+  Data: 0
+  Amount: 1
+  Display: 'Chain Chestplate'
+ChainArmor3:
+  Id: 304
+  Data: 0
+  Amount: 1
+  Display: 'Chain Leggings'
+ChainArmor4:
+  Id: 305
+  Data: 0
+  Amount: 1
+  Display: 'Chain Boots'
