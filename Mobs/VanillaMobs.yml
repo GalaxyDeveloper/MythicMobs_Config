@@ -1,15 +1,28 @@
-# 
-# This example file shows you how to change default values for 
-# vanilla mobs. Most MythicMobs options will work here, including
-# skills and effects! **Despawn: FALSE does not work, though.**
-CAVE_SPIDER:
-  Health: 30
-  Damage: 7
-WITHER_SKELETON:
-  Health: 50
-  Damage: 10
-GIANT:
-  Health: 1000
-  Damage: 20
+#Skeleton Archer
+SKELETON:
+  Health: 20
+  Damage: 4
+  DamageModifiers:
+  - FIRE 2
+  - LAVA 2
+  - FIRE_TICK 2
+  Drops:
+  - SkeletalArcherDrops
+  Equipment:
+  - SkeletonBow:0
+  - SkeletonHelmet:4
+  Faction: Skeleton_Army
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 skeletonbowattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 SpecificFaction Humans
+  KillMessages:
+  - '<target.name> was shot by a pile of living bones'
   Skills:
-  - potion{type=POISON;duration=100;lvl=1} @target ~onAttack

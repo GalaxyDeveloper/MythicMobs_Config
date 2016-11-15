@@ -18,10 +18,25 @@ RandomSkeletalMiner:
 
 #RandomHuman
 RandomHumanWarrior:
-  MobType: HumanWarrior
+  MobType: Human_Warrior
   Worlds: world
   Chance: 0.25
   Priority: 1
   Action: add
+RandomHumanMiner:
+  MobType: Human_Miner
+  Worlds: world
+  Chance: 0.25
+  Priority: 1
+  Action: add
+
+#RandomDesert
+RandomFireRat:
+  MobType: Fire_Rat
+  Worlds: world
+  Chance: 0.35
+  Priority: 1
+  Action: add
   Conditions:
-  - biome plains
+  - biome desert
+
